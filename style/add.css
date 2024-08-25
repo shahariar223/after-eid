@@ -67,7 +67,6 @@ h5{
 }
 #h{
     margin-top: 100px;
-    text-align: center;
     margin-bottom: 60px;
 
 }
@@ -171,4 +170,81 @@ footer{
     width: 100%;
     border: 1px solid white;
     color: white;
+}
+@media screen and (max-width:576px) {
+    footer{
+        margin: 0px auto;
+    }
+
+    .fot{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .input{
+        width: 70%;
+    }   
+    .s3{
+        width: 100%;
+        height: 100%;
+    }
+    .all{
+        flex-direction: column;
+        background-color: bisque;
+        padding-top: 50px;
+    }
+    .right{
+        font-size: 10px;
+    }
+    p{
+        padding: 0px;
+    }
+    .ulp{
+        height: 50%;
+        width: 50%;
+    }
+    h1,#p,h5{
+        padding-left: 30px;
+    }
+    #h{
+        padding-left: 50%;
+    }
+    .s1{
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+    nav{
+        width: auto;
+        height: auto;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    footer{
+        margin: 0px auto;
+    }
+
+    .fot{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .input{
+        width: 70%;
+    }  
+    .right{
+        font-size: 10px;
+    }
+    .ulp{
+        height: 50%;
+        width: 50%;
+    }
+    h1,#p,h5{
+        padding-left: 30px;
+    }
+    .s1{
+        flex-direction: column;
+        gap: 50px;      
+    } 
+    #h{
+        padding-left: 50%;
+    }
 }
